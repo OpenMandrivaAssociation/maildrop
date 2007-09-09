@@ -1,7 +1,7 @@
 Summary:	Maildrop mail filter/mail delivery agent
 Name:		maildrop
 Version:	1.7.0
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPL
 Group:		System/Servers
 URL:		http://www.flounder.net/~mrsam/maildrop/
@@ -15,7 +15,7 @@ Patch0:		maildrop-1.5.3-DELTAG.patch
 Patch1:		maildrop-1.7.0-0x0B-fix.patch
 BuildRequires:	gdbm-devel
 BuildRequires:	openldap-devel
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	openssl-devel
 BuildRequires:	libsasl-devel
 BuildRequires:	pam-devel
