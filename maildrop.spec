@@ -19,6 +19,7 @@ BuildRequires:	mysql-devel
 BuildRequires:	openssl-devel
 BuildRequires:	libsasl-devel
 BuildRequires:	pam-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Maildrop is a combination mail filter/mail delivery agent.
