@@ -1,7 +1,7 @@
 Summary:	Maildrop mail filter/mail delivery agent
 Name:		maildrop
 Version:	1.7.0
-Release:	%mkrel 12
+Release:	%mkrel 14
 License:	GPL
 Group:		System/Servers
 URL:		http://www.flounder.net/~mrsam/maildrop/
