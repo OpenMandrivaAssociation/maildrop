@@ -8,7 +8,7 @@ URL:		http://www.flounder.net/~mrsam/maildrop/
 Source0:	%{name}-%{version}.tar.bz2
 # S1, S2 & P0 originates from:
 # http://www.firstpr.com.au/web-mail/Maildrop-mods-filtering/
-Source1:	subjadd.c.bz2
+Source1:	subjadd.c
 Source2:	my.mailfilter.txt.bz2
 Source3:	README.DELTAG.html.bz2
 Patch0:		maildrop-1.5.3-DELTAG.patch
@@ -79,7 +79,7 @@ which use or process E-mail messages.
 %patch1 -p1 -b .maildropmysql.cf
 %patch2 -p0
 
-bzcat %{SOURCE1} > subjadd.c
+cp %{SOURCE1} subjadd.c
 bzcat %{SOURCE2} > my.mailfilter.txt
 bzcat %{SOURCE3} > README.DELTAG.html
 mv 0README.txt README.DELTAG
