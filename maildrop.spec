@@ -1,12 +1,11 @@
 Summary:	Maildrop mail filter/mail delivery agent
 Name:		maildrop
-Version:	2.5.4
+Version:	2.5.5
 Release:	%mkrel 1
 License:	GPLv3
 Group:		System/Servers
 URL:		http://www.courier-mta.org/maildrop/
 Source0:	%{name}-%{version}.tar.bz2
-Source1:	%{name}-%{version}.tar.bz2.sig
 Patch0:		maildrop-1.7.0-format_not_a_string_literal_and_no_format_arguments.diff
 BuildConflicts:	libreoffice-common
 BuildRequires:	autoconf
@@ -18,7 +17,6 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
 BuildRequires:	pcre-devel
 Requires:	sendmail-command
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Maildrop is a combination mail filter/mail delivery agent. Maildrop reads the
