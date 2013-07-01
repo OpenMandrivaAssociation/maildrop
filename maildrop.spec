@@ -1,4 +1,4 @@
-Summary:	Maildrop mail filter/mail delivery agent
+Summary:	Mail filter/mail delivery agent
 Name:		maildrop
 Version:	2.5.5
 Release:	%mkrel 2
