@@ -1,7 +1,7 @@
 Summary:	Mail filter/mail delivery agent
 Name:		maildrop
 Version:	2.5.5
-Release:	%mkrel 2
+Release:	3
 License:	GPLv3
 Group:		System/Servers
 URL:		http://www.courier-mta.org/maildrop/
@@ -76,7 +76,6 @@ export MAILBOT="%{_bindir}/mailbot"
 %make
 
 %install
-rm -rf %{buildroot}
 
 %makeinstall_std MAILDROPUID='' MAILDROPGID=''
 
@@ -113,10 +112,8 @@ mv %{buildroot}%{_mandir}/man1/maildirmake.1 %{buildroot}%{_mandir}/man1/maildir
 mv %{buildroot}%{_mandir}/man8/deliverquota.8 %{buildroot}%{_mandir}/man8/maildirmake-deliverquota.8
 
 %clean
-rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %doc INSTALL NEWS UPGRADE ChangeLog maildir/README* html
 %doc INSTALL.html maildroptips.txt
 %doc README.html UPGRADE.html
