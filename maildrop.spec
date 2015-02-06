@@ -1,7 +1,7 @@
 Summary:	Mail filter/mail delivery agent
 Name:		maildrop
 Version:	2.5.5
-Release:	3
+Release:	4
 License:	GPLv3
 Group:		System/Servers
 URL:		http://www.courier-mta.org/maildrop/
