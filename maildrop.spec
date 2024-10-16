@@ -4,7 +4,7 @@ Version:	2.5.5
 Release:	4
 License:	GPLv3
 Group:		System/Servers
-URL:		http://www.courier-mta.org/maildrop/
+URL:		https://www.courier-mta.org/maildrop/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		maildrop-1.7.0-format_not_a_string_literal_and_no_format_arguments.diff
 BuildConflicts:	libreoffice-common
