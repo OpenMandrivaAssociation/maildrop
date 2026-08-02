@@ -1,7 +1,7 @@
 Summary:	Mail filter/mail delivery agent
 Name:		maildrop
-Version:	2.5.5
-Release:	4
+Version:	4.0.4
+Release:	1
 License:	GPLv3
 Group:		System/Servers
 URL:		https://www.courier-mta.org/maildrop/
@@ -42,7 +42,7 @@ enhancements (folders+quotas), and userdb.
 %prep
 
 %setup -q -n %{name}-%{version}
-%patch0 -p0
+%patch -P0 -p1
 
 %build
 export DEFAULT_DEF="./Maildir"
